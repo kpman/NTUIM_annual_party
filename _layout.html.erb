@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" > <!--<![endif]-->
+<html lang="en">
+  <head>
+    <%= render :partial => "head" %>
+    <% if content_for? :custom_css %>
+      <%= yield :custom_css %>
+    <% else %>
+    <% end %>
+  </head>
+  <body id="page-top" class="index">
+    <%= render :partial => "nav" %>
+    <%= yield %>
+    <%= render :partial => "js" %>
+    <% if content_for? :custom_js %>
+      <%= yield :custom_js %>
+    <% else %>
+    <% end %>
+  </body>
+</html>

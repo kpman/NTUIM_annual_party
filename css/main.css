@@ -1,0 +1,73 @@
+header p {
+  line-height: 1.7em;
+}
+header .signup-row {
+  margin-top: 60px;
+}
+header .signup-row .btn {
+  padding: 20px;
+  font-size: 1.75em;
+  border: none;
+  color: #f8f8f8;
+  background-color: #128f76;
+}
+header .signup-row .btn:hover {
+  color: #777777;
+  background-color: #f8f8f8;
+  -moz-transition: all, 0.4s, ease-in;
+  -o-transition: all, 0.4s, ease-in;
+  -webkit-transition: all, 0.4s, ease-in;
+  transition: all, 0.4s, ease-in;
+}
+header .signup-row .btn:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+footer {
+  color: #777777;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #cbcbcb;
+}
+
+#signup {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+#portfolio .star-primary {
+  margin-bottom: 50px;
+}
+#portfolio .more-photos .star-primary {
+  margin-bottom: 30px;
+}
+
+.schedule-head-img {
+  max-width: 250px;
+}
+
+.info {
+  list-style: none;
+  margin: 0 auto;
+  font-size: 1.75em;
+}
+
+.or {
+  margin: 0 8px;
+  font-size: 80%;
+}
+
+.photos-section {
+  padding-top: 75px;
+}
+@media (min-width: 768px) {
+  .photos-section {
+    padding-top: 150px;
+  }
+}
+.photos-section .photo {
+  right: 0;
+  margin: 0 0 15px;
+}
