@@ -71,3 +71,16 @@ footer {
   right: 0;
   margin: 0 0 15px;
 }
+
+#info,
+#info hr.star-light:after {
+  background-color: #57b9eb;
+}
+#info .signup-row .btn,
+#info hr.star-light:after .signup-row .btn {
+  background-color: #178ac5;
+}
+#info .signup-row .btn:hover,
+#info hr.star-light:after .signup-row .btn:hover {
+  background-color: #f8f8f8;
+}
